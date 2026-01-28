@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\case03\\case03.csproj": {}
+    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\case03\\case03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\case03\\case03.csproj": {
+    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\case03\\case03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\case03\\case03.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\case03\\case03.csproj",
         "projectName": "case03",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\case03\\case03.csproj",
+        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\case03\\case03.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\case03\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\case03\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
