@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\case03\bin\Debug\net10.0\case03.exe
+C:\Users\aluno\Desktop\case03\bin\Debug\net10.0\case03.deps.json
+C:\Users\aluno\Desktop\case03\bin\Debug\net10.0\case03.runtimeconfig.json
+C:\Users\aluno\Desktop\case03\bin\Debug\net10.0\case03.dll
+C:\Users\aluno\Desktop\case03\bin\Debug\net10.0\case03.pdb
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.AssemblyInfo.cs
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.sourcelink.json
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.dll
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\refint\case03.dll
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.pdb
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\case03.genruntimeconfig.cache
+C:\Users\aluno\Desktop\case03\obj\Debug\net10.0\ref\case03.dll

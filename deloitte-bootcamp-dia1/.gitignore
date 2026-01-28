@@ -1,0 +1,66 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet
+*.nupkg
+*.snupkg
+# packages/
+# Uncomment if you don't want to commit packages
+# **/packages/*
+*.nuget.props
+*.nuget.targets
+
+## Publish
+**/publish/
+**/wwwroot/lib/
+
+## OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+## Secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Others
+*.pdb
+*.cache
+*.tmp

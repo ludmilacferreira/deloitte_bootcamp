@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-piloto", "api-piloto\api-piloto.csproj", "{097936EA-C4F3-E9BC-830B-D910B03C12EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097936EA-C4F3-E9BC-830B-D910B03C12EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097936EA-C4F3-E9BC-830B-D910B03C12EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097936EA-C4F3-E9BC-830B-D910B03C12EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097936EA-C4F3-E9BC-830B-D910B03C12EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A61F352-1689-4F08-8CE4-F4CFF0C7394E}
+	EndGlobalSection
+EndGlobal
