@@ -9,7 +9,7 @@ class Program
 
         while (true)
         {
-            Console.WriteLine("\n=== MENU ===");
+            Console.WriteLine("\n Menu de estoque");
             Console.WriteLine("1 - Adicionar produto");
             Console.WriteLine("2 - Editar produto");
             Console.WriteLine("3 - Remover produto");
