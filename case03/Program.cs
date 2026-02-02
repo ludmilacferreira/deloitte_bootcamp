@@ -21,10 +21,25 @@ class Program
 
         switch (opc)
         {
+
             case "1":
+
+            Console.WriteLine("\n Menu de estoque");
+            Console.WriteLine("1 - Adicionar produto");
+            Console.WriteLine("2 - Editar produto");
+            Console.WriteLine("3 - Remover produto");
+            Console.WriteLine("4 - Listar produtos");
+            Console.WriteLine("5 - Sair");
+            Console.Write("Escolha uma opção: ");
+
+            string opc = Console.ReadLine();
+
+            if (opc == "1")
+            {
+
                 AdicionarProduto(produtos);
                 break;
-
+            }
             case "2":
                 EditarProduto(produtos);
                 break;
