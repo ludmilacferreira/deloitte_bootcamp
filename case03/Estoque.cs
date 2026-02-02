@@ -1,8 +1,8 @@
 public class Estoque
 {
-    public string NomeProduto { get; private set; }
-    public decimal PrecoProduto { get; private set; }
-    public int QuantidadeEstoque { get; private set; }
+    public string NomeProduto { get; set; }
+    public decimal PrecoProduto { get; set; }
+    public int QuantidadeEstoque { get; set; }
 
     public Estoque(string nomeProduto, decimal precoProduto, int quantidadeEstoque)
     {

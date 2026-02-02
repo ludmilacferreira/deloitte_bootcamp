@@ -4,47 +4,50 @@ using System.Collections.Generic;
 class Program
 {
     static void Main()
+{
+    List<Estoque> produtos = new List<Estoque>();
+
+    while (true)
     {
-        List<Estoque> produtos = new List<Estoque>();
+        Console.WriteLine("\n=== Menu de Estoque ===");
+        Console.WriteLine("1 - Adicionar produto");
+        Console.WriteLine("2 - Editar produto");
+        Console.WriteLine("3 - Remover produto");
+        Console.WriteLine("4 - Listar produtos");
+        Console.WriteLine("5 - Sair");
+        Console.Write("Escolha uma opção: ");
 
-        while (true)
+        string opc = Console.ReadLine();
+
+        switch (opc)
         {
-            Console.WriteLine("\n=== MENU ===");
-            Console.WriteLine("1 - Adicionar produto");
-            Console.WriteLine("2 - Editar produto");
-            Console.WriteLine("3 - Remover produto");
-            Console.WriteLine("4 - Listar produtos");
-            Console.WriteLine("5 - Sair");
-            Console.Write("Escolha uma opção: ");
-
-            string opc = Console.ReadLine();
-
-            if (opc == "1")
-            {
+            case "1":
                 AdicionarProduto(produtos);
-            }
-            else if (opc == "2")
-            {
-                EditarProduto(produtos);
-            }
-            else if (opc == "3")
-            {
-                RemoverProduto(produtos);
-            }
-            else if (opc == "4")
-            {
-                ListarProdutos(produtos);
-            }
-            else if (opc == "5")
-            {
                 break;
-            }
-            else
-            {
+
+            case "2":
+                EditarProduto(produtos);
+                break;
+
+            case "3":
+                RemoverProduto(produtos);
+                break;
+
+            case "4":
+                ListarProdutos(produtos);
+                break;
+
+            case "5":
+                Console.WriteLine("Saindo do programa...");
+                return; // Sai do Main e encerra o programa
+
+            default:
                 Console.WriteLine("Opção inválida. Tente novamente.");
-            }
+                break;
         }
     }
+}
+
 
     static void AdicionarProduto(List<Estoque> produtos)
     {
@@ -75,7 +78,7 @@ class Program
             Console.WriteLine("Produto não cadastrado.");
         }
     }
-
+    
     static void EditarProduto(List<Estoque> produtos)
     {
         if (produtos.Count == 0)
