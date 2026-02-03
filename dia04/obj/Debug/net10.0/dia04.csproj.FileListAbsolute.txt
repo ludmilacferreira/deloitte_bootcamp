@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.AssemblyInfo.cs
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.sourcelink.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\bin\Debug\net10.0\dia04.exe
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\bin\Debug\net10.0\dia04.deps.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\bin\Debug\net10.0\dia04.runtimeconfig.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\bin\Debug\net10.0\dia04.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\bin\Debug\net10.0\dia04.pdb
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\refint\dia04.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.pdb
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\dia04.genruntimeconfig.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia04\obj\Debug\net10.0\ref\dia04.dll
