@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        var manager = new VisitorManager();
+        var gestaoDeVisitantes = new GestaoDeVisitantes();
         while (true)
         {
             try
@@ -24,22 +24,22 @@ class Program
                 switch (opt)
                 {
                     case "1":
-                        Cadastrar(manager);
+                        Cadastrar(gestaoDeVisitantes);
                         break;
                     case "2":
-                        Listar(manager.ListAll());
+                        Listar(gestaoDeVisitantes.ListAll());
                         break;
                     case "3":
-                        Buscar(manager);
+                        Buscar(gestaoDeVisitantes);
                         break;
                     case "4":
-                        RegistrarSaida(manager);
+                        RegistrarSaida(gestaoDeVisitantes);
                         break;
                     case "5":
-                        Listar(manager.FirstTimeVisitors());
+                        Listar(gestaoDeVisitantes.FirstTimeVisitors());
                         break;
                     case "6":
-                        Ordenar(manager);
+                        Ordenar(gestaoDeVisitantes);
                         break;
                     case "0":
                         return;
@@ -55,7 +55,7 @@ class Program
         }
     }
 
-    static void Cadastrar(VisitorManager manager)
+    static void Cadastrar(GestaoDeVisitantes gestaoDeVisitantes)
     {
         Console.Write("Nome: ");
         var nome = Console.ReadLine();
@@ -70,7 +70,7 @@ class Program
             HorarioChegada = DateTime.Now,
             EPrimaVez = prima?.ToLower() == "s"
         };
-        manager.Add(v);
+        gestaoDeVisitantes.Add(v);
         Console.WriteLine("Visitante cadastrado.");
     }
 
@@ -82,33 +82,33 @@ class Program
         }
     }
 
-    static void Buscar(VisitorManager manager)
+    static void Buscar(GestaoDeVisitantes gestaoDeVisitantes)
     {
         Console.Write("Nome para buscar: ");
         var nome = Console.ReadLine();
-        var encontrados = manager.FindByName(nome);
+        var encontrados = gestaoDeVisitantes.FindByName(nome);
         Listar(encontrados);
     }
 
-    static void RegistrarSaida(VisitorManager manager)
+    static void RegistrarSaida(GestaoDeVisitantes gestaoDeVisitantes)
     {
         Console.Write("Documento do visitante para registrar saída: ");
         var doc = Console.ReadLine();
-        var ok = manager.RegisterExit(doc);
+        var ok = gestaoDeVisitantes.RegisterExit(doc);
         Console.WriteLine(ok ? "Saída registrada." : "Visitante não encontrado ou já saiu.");
     }
 
-    static void Ordenar(VisitorManager manager)
+    static void Ordenar(GestaoDeVisitantes gestaoDeVisitantes)
     {
         Console.WriteLine("1 - Ordenar por nome\n2 - Ordenar por chegada");
         var o = Console.ReadLine();
         switch (o)
         {
             case "1":
-                Listar(manager.SortedByName());
+                Listar(gestaoDeVisitantes.SortedByName());
                 break;
             case "2":
-                Listar(manager.SortedByArrival());
+                Listar(gestaoDeVisitantes.SortedByArrival());
                 break;
             default:
                 Console.WriteLine("Opção inválida.");

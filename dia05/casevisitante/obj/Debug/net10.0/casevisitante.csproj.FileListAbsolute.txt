@@ -1,0 +1,15 @@
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\bin\Debug\net10.0\casevisitante.exe
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\bin\Debug\net10.0\casevisitante.deps.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\bin\Debug\net10.0\casevisitante.runtimeconfig.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\bin\Debug\net10.0\casevisitante.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\bin\Debug\net10.0\casevisitante.pdb
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.AssemblyInfo.cs
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.sourcelink.json
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\refint\casevisitante.dll
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.pdb
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\casevisitante.genruntimeconfig.cache
+C:\Users\aluno\Desktop\deloitte_bootcamp\dia05\casevisitante\obj\Debug\net10.0\ref\casevisitante.dll

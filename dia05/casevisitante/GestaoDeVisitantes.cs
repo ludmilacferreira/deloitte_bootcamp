@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-public class VisitorManager
+public class GestaoDeVisitantes
 {
     private readonly List<Visitante> visitantes = new List<Visitante>();
 

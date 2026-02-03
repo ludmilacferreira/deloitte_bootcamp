@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\case visitante\\case visitante.csproj",
-      "projectName": "case visitante",
-      "projectPath": "C:\\Users\\aluno\\Desktop\\case visitante\\case visitante.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\casevisitante\\casevisitante.csproj",
+      "projectName": "casevisitante",
+      "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\casevisitante\\casevisitante.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Desktop\\case visitante\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\casevisitante\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
