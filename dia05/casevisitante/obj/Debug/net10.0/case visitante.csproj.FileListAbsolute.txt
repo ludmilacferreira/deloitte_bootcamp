@@ -1,0 +1,14 @@
+C:\Users\aluno\Desktop\case visitante\bin\Debug\net10.0\case visitante.exe
+C:\Users\aluno\Desktop\case visitante\bin\Debug\net10.0\case visitante.deps.json
+C:\Users\aluno\Desktop\case visitante\bin\Debug\net10.0\case visitante.runtimeconfig.json
+C:\Users\aluno\Desktop\case visitante\bin\Debug\net10.0\case visitante.dll
+C:\Users\aluno\Desktop\case visitante\bin\Debug\net10.0\case visitante.pdb
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.AssemblyInfo.cs
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.dll
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\refint\case visitante.dll
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.pdb
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\case visitante.genruntimeconfig.cache
+C:\Users\aluno\Desktop\case visitante\obj\Debug\net10.0\ref\case visitante.dll
