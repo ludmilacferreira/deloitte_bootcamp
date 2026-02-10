@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\MinhaApi\\MinhaApi.csproj": {}
+    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\MinhaApi\\MinhaApi.csproj": {
+    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\MinhaApi\\MinhaApi.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
         "projectName": "MinhaApi",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\MinhaApi\\MinhaApi.csproj",
+        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\dia05\\MinhaApi\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,7 +48,9 @@
               "target": "Package",
               "version": "[10.0.2, )"
             },
-            "Microsoft.EntityFrameWorkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.2, )"
             },
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
