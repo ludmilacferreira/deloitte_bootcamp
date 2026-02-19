@@ -1,0 +1,208 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-02-19T00:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2024.1.0",
+  "resources": [
+    {
+      "_id": "wrk_desafio_final",
+      "parentId": null,
+      "_type": "workspace",
+      "name": "Desafio Final - Equipamentos Pesados",
+      "description": "CRUD de Equipamentos de Mina (Vale)",
+      "scope": "collection"
+    },
+    {
+      "_id": "fld_equipamentos",
+      "parentId": "wrk_desafio_final",
+      "_type": "request_group",
+      "name": "Equipamentos"
+    },
+    {
+      "_id": "req_create",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "POST - Criar Equipamento",
+      "method": "POST",
+      "url": "http://localhost:5164/api/equipamentos",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"CAT-793F-000999\",\n  \"tipo\": \"Caminhao\",\n  \"modelo\": \"Caterpillar 793F\",\n  \"horimetro\": 18234.5,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2019-03-15\",\n  \"localizacaoAtual\": \"Mina Carajas N4E\"\n}"
+      }
+    },
+    {
+      "_id": "req_create_escavadeira",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "POST - Criar Escavadeira",
+      "method": "POST",
+      "url": "http://localhost:5164/api/equipamentos",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"LIE-R9800-0099\",\n  \"tipo\": \"Escavadeira\",\n  \"modelo\": \"Liebherr R 9800\",\n  \"horimetro\": 7500.0,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2021-08-20\",\n  \"localizacaoAtual\": \"Mina Carajas N5S\"\n}"
+      }
+    },
+    {
+      "_id": "req_create_invalid_codigo_duplicado",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "POST - Erro: Codigo Duplicado (409)",
+      "method": "POST",
+      "url": "http://localhost:5164/api/equipamentos",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"CAT-793F-000999\",\n  \"tipo\": \"Caminhao\",\n  \"modelo\": \"Caterpillar 793F\",\n  \"horimetro\": 100,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2024-01-01\",\n  \"localizacaoAtual\": \"Oficina Central\"\n}"
+      }
+    },
+    {
+      "_id": "req_create_invalid_horimetro",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "POST - Erro: Horimetro Negativo (400)",
+      "method": "POST",
+      "url": "http://localhost:5164/api/equipamentos",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"TESTE-NEG-001\",\n  \"tipo\": \"Trator\",\n  \"modelo\": \"Cat D11\",\n  \"horimetro\": -100,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2024-01-01\",\n  \"localizacaoAtual\": \"Mina\"\n}"
+      }
+    },
+    {
+      "_id": "req_create_invalid_tipo",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "POST - Erro: Tipo Invalido (400)",
+      "method": "POST",
+      "url": "http://localhost:5164/api/equipamentos",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"TESTE-TIPO-001\",\n  \"tipo\": \"Helicoptero\",\n  \"modelo\": \"Bell 429\",\n  \"horimetro\": 500,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2024-01-01\",\n  \"localizacaoAtual\": \"Hangar\"\n}"
+      }
+    },
+    {
+      "_id": "req_getall",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Listar Todos (paginado)",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos?page=1&pageSize=10",
+      "headers": []
+    },
+    {
+      "_id": "req_getall_filtro_tipo",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Filtrar por Tipo=Caminhao",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos?tipo=Caminhao",
+      "headers": []
+    },
+    {
+      "_id": "req_getall_filtro_status",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Filtrar por Status=EmManutencao",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos?status=EmManutencao",
+      "headers": []
+    },
+    {
+      "_id": "req_getall_filtro_codigo",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Filtrar por Codigo (parcial)",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos?codigo=CAT",
+      "headers": []
+    },
+    {
+      "_id": "req_getbyid",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Detalhe por ID",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos/1",
+      "headers": []
+    },
+    {
+      "_id": "req_getbyid_404",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "GET - Detalhe ID inexistente (404)",
+      "method": "GET",
+      "url": "http://localhost:5164/api/equipamentos/9999",
+      "headers": []
+    },
+    {
+      "_id": "req_update",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "PUT - Atualizar Equipamento",
+      "method": "PUT",
+      "url": "http://localhost:5164/api/equipamentos/1",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"CAT-793F-000123\",\n  \"tipo\": \"Caminhao\",\n  \"modelo\": \"Caterpillar 793F - Revisado\",\n  \"horimetro\": 19000.0,\n  \"statusOperacional\": \"EmManutencao\",\n  \"dataAquisicao\": \"2019-03-15\",\n  \"localizacaoAtual\": \"Oficina Central\"\n}"
+      }
+    },
+    {
+      "_id": "req_update_404",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "PUT - Atualizar ID inexistente (404)",
+      "method": "PUT",
+      "url": "http://localhost:5164/api/equipamentos/9999",
+      "headers": [
+        { "name": "Content-Type", "value": "application/json" }
+      ],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"codigo\": \"TESTE-999\",\n  \"tipo\": \"Trator\",\n  \"modelo\": \"Cat D11\",\n  \"horimetro\": 100,\n  \"statusOperacional\": \"Operacional\",\n  \"dataAquisicao\": \"2024-01-01\",\n  \"localizacaoAtual\": \"Mina\"\n}"
+      }
+    },
+    {
+      "_id": "req_delete",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "DELETE - Remover Equipamento",
+      "method": "DELETE",
+      "url": "http://localhost:5164/api/equipamentos/1",
+      "headers": []
+    },
+    {
+      "_id": "req_delete_404",
+      "parentId": "fld_equipamentos",
+      "_type": "request",
+      "name": "DELETE - Remover ID inexistente (404)",
+      "method": "DELETE",
+      "url": "http://localhost:5164/api/equipamentos/9999",
+      "headers": []
+    },
+    {
+      "_id": "env_base",
+      "parentId": "wrk_desafio_final",
+      "_type": "environment",
+      "name": "Base Environment",
+      "data": {
+        "base_url": "http://localhost:5164"
+      }
+    }
+  ]
+}
