@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj": {}
+    "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {
+    "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
+        "projectUniqueName": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj",
         "projectName": "MinhaApi",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\obj\\",
+        "projectPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj",
+        "packagesPath": "C:\\Users\\ldcf2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ldcf2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -500,17 +500,17 @@
         }
       }
     },
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj": {
+    "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj",
         "projectName": "MinhaApi.Tests",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.Tests\\obj\\",
+        "projectPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.Tests\\MinhaApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\ldcf2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ldcf2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -522,8 +522,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {
-                "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj"
+              "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj": {
+                "projectPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj"
               }
             }
           }
@@ -550,7 +550,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.10.0, )"
+              "version": "[18.0.1, )"
             },
             "coverlet.collector": {
               "suppressParent": "All",
@@ -584,7 +584,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

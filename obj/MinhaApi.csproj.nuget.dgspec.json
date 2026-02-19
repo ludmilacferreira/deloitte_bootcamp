@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {}
+    "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj": {
+    "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
+        "projectUniqueName": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj",
         "projectName": "MinhaApi",
-        "projectPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\MinhaApi.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Desktop\\deloitte_bootcamp\\obj\\",
+        "projectPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\MinhaApi.csproj",
+        "packagesPath": "C:\\Users\\ldcf2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ldcf2\\deloitte_bootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ldcf2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
